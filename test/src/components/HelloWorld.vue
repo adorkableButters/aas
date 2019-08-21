@@ -103,7 +103,7 @@ export default {
   },
   methods: {
     clickTable (row) { // 展开事件日志列表
-      console.log('获取元素111', row.id)
+      console.log('获取元素', row.id)
       this.$refs.multipleTableAll.toggleRowExpansion(row)
     },
     changeExpand (row, expandedRows) {
